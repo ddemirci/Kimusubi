@@ -31,7 +31,6 @@ namespace Kimusubi
             textBox4.MaxLength = 3;
             textBox5.MaxLength = 10;
 
-
             //only digits allowed
             this.textBox3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(textBoxEnableDigit);
             this.textBox4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(textBoxEnableDigit);
